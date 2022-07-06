@@ -1,6 +1,6 @@
 from sys import argv, exit
 from calcium import Calcium
-version = '1.0'
+version = '1.1'
 
 def shell():
     print("Welcome to Calcium Shell v" + version)

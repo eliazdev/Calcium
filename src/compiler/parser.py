@@ -28,3 +28,9 @@ def p_factor_float(p):
 def p_factor_expression(p):
     'factor : LPAR expression RPAR'
     p[0] = p[2]
+def p_factor_expression(p):
+    'factor : LSQU expression RSQU'
+    p[0] = p[2]
+def p_term_power(p):
+    'term : factor POWER factor'
+    p[0] = p[1] ** p[3]
