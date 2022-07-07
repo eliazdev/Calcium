@@ -6,6 +6,7 @@ setup(
     version='1.1',
     license='GPL',
     author="EliaZ",
+    description="A Mathematical Equation Parser and Solver",
     packages=find_packages('src'),
     package_dir={'': 'src'},
     url='https://github.com/eliazdev/Calcium',
