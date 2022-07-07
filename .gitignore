@@ -128,3 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+#PLY Files/Folders
+parser.out
+.parser.out
+parsetab.py
+.parsetab.py

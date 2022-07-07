@@ -1,1 +1,1 @@
-from src.calcium import Calcium
+from pycalcium.calcium import Calcium
