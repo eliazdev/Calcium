@@ -1,6 +1,6 @@
-from compiler.parser import *
-from compiler.lexer import *
-from compiler.tokens import *
+from parser import *
+from lexer import *
+from tokens import *
 class Calcium:
     def __init__(self, equation : str):
         if type(equation) != str:
