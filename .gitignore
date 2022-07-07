@@ -133,3 +133,17 @@ parser.out
 .parser.out
 parsetab.py
 .parsetab.py
+
+#Test Files
+test.py
+.test.py
+TEST.py
+.TEST.py
+
+#License Files
+LICENSE
+.LICENSE
+
+#Readme
+README
+.README
